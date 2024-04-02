@@ -23,14 +23,6 @@ import datatypes.Masters;´
     }
 
     /**
-     * Sets the ID of the student.
-     * @param studentId The ID of the student to set.
-     */
-    public void setStudentId(int studentId) {
-        this.studentId = studentId;
-    }
-
-    /**
      * Gets the name of the student.
      * @return The name of the student.
      */
