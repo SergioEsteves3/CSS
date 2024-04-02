@@ -29,7 +29,8 @@ public class ThemesCatalog {
 	 * @param masters a given list of compatible masters
 	 * @param pay a given pay
 	 */
-	public void addTheme (String title, String description, List<Masters> masters, float pay) {
+	public int addTheme (String title, String description, List<Masters> masters, float pay) {
 		//TO-DO
+		return -1;
 	}
 }
