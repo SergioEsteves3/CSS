@@ -12,7 +12,7 @@ public class Thesis {
 	
 	private int thesisId;
 	private File document;
-	private int internalCounsellorId;
+	private int internalcounselorId;
 	private int themeId;
 	private int studentId;
 	
@@ -41,19 +41,19 @@ public class Thesis {
 	}
 	
 	/**
-	 * Returns the internal councillor's id
-	 * @return the internal councillor's id
+	 * Returns the internal counselor's id
+	 * @return the internal counselor's id
 	 */
-	public int getInternalCouncillorId() {
-		return internalCounsellorId;
+	public int getInternalcounselorId() {
+		return internalcounselorId;
 	}
 	
 	/**
-	 * Sets the id of the thesis's internal councillor
-	 * @param internalCounsellorId the id
+	 * Sets the id of the thesis's internal counselor
+	 * @param internalcounselorId the id
 	 */
-	public void setInternalCounsellorId(int internalCounsellorId) {
-		this.internalCounsellorId = internalCounsellorId;
+	public void setInternalcounselorId(int internalcounselorId) {
+		this.internalcounselorId = internalcounselorId;
 	}
 	
 	/**

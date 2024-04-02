@@ -18,7 +18,7 @@ public class Theme {
 	private String description;
 	private List<Masters> compatibleMasters;
 	private float pay;
-	private int councillorId;
+	private int counselorId;
 	
 	/**
 	 * Returns the theme's id
@@ -93,18 +93,18 @@ public class Theme {
 	}
 
 	/**
-	 * Returns the id for the councillor that submitted this theme
+	 * Returns the id for the counselor that submitted this theme
 	 * @return
 	 */
-	public int getCouncillorId() {
-		return councillorId;
+	public int getcounselorId() {
+		return counselorId;
 	}
 
 	/**
-	 * Sets the id for the councillor that submitted this theme
+	 * Sets the id for the counselor that submitted this theme
 	 * @param councellorId a given id
 	 */
-	public void setCouncillorId(int councellorId) {
-		this.councillorId = councellorId;
+	public void setcounselorId(int councellorId) {
+		this.counselorId = councellorId;
 	}
 }
