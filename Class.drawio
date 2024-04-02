@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T14:32:24.855Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="0P_lfvyBfUqtHH8KnfBb" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T21:57:27.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="1ps_dVBdf9cf5_JW8zmO" version="24.2.1" type="github">
   <diagram name="Page-1" id="Iy_dI4fpFOT3Uq1jtPuq">
-    <mxGraphModel dx="2837" dy="1287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1276" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="740" y="100" width="60" height="10" as="geometry" />
         </mxCell>
         <mxCell id="9Kb7eWinXGNjsF5yYqvm-152" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=110;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-80" y="470" width="2070" height="1305" as="geometry" />
+          <mxGeometry x="-79" y="470" width="2070" height="1305" as="geometry" />
         </mxCell>
         <mxCell id="9Kb7eWinXGNjsF5yYqvm-153" value="BusinessLogic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-60" y="470" width="60" height="30" as="geometry" />
@@ -43,7 +43,7 @@
         <mxCell id="9Kb7eWinXGNjsF5yYqvm-175" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CounsellorsCatalog&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CounsellorCatalog()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+getCounsellor(int): Counsellor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+addFaculty(name):int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+addEnterprise(name):int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+addAdministrator(name):int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+isFaculty(int):boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+isEnterprise(int):boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+isAdministrator(int):boolean&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="110" y="585" width="200" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="9Kb7eWinXGNjsF5yYqvm-176" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.122;exitY=1.16;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="9Kb7eWinXGNjsF5yYqvm-175" edge="1" source="9Kb7eWinXGNjsF5yYqvm-180">
+        <mxCell id="9Kb7eWinXGNjsF5yYqvm-176" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.122;exitY=1.16;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="9Kb7eWinXGNjsF5yYqvm-180" target="9Kb7eWinXGNjsF5yYqvm-175" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="350" as="sourcePoint" />
             <mxPoint x="300" y="510" as="targetPoint" />
@@ -134,7 +134,7 @@
             <mxPoint x="290" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Kb7eWinXGNjsF5yYqvm-202" value="" style="endArrow=block;html=1;rounded=0;exitX=0.336;exitY=0.016;exitDx=0;exitDy=0;endFill=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="9Kb7eWinXGNjsF5yYqvm-203" edge="1" target="9Kb7eWinXGNjsF5yYqvm-200">
+        <mxCell id="9Kb7eWinXGNjsF5yYqvm-202" value="" style="endArrow=block;html=1;rounded=0;exitX=0.336;exitY=0.016;exitDx=0;exitDy=0;endFill=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="9Kb7eWinXGNjsF5yYqvm-203" target="9Kb7eWinXGNjsF5yYqvm-200" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="180" y="1310" as="sourcePoint" />
             <mxPoint x="200" y="1210" as="targetPoint" />
@@ -205,9 +205,6 @@
         <mxCell id="9Kb7eWinXGNjsF5yYqvm-227" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Thesis&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div&gt;- Document: java.io.File&lt;/div&gt;&lt;div&gt;- thesisId: int&lt;/div&gt;&lt;div&gt;- internalCounsellorId: int&lt;/div&gt;&lt;div&gt;- themeId: int&lt;/div&gt;&lt;div&gt;- studentId: int&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setDocument(java.io.File)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDocument(): java.io.File&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getId():id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getInternalcounselorId(): Counsellor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+setInternalcounselorId(int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getTheme: Theme&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;setThemeId(int)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getStudent(): Student&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;setStudentId(int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1157.5" y="1200" width="265" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="9Kb7eWinXGNjsF5yYqvm-228" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DiscussionRoom&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div&gt;- discRoomId: int&lt;br&gt;&lt;/div&gt;&lt;div&gt;- discussionId: int&lt;/div&gt;&lt;div&gt;- classroomId: int&lt;/div&gt;&lt;div&gt;- startTime: java.Util.Date&lt;/div&gt;&lt;div&gt;- endTime: java.Util.Date&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ DiscussionRoom(int,int,int, java.Util.Date)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;+ getId(): int&lt;/div&gt;&lt;div&gt;+ getDiscussionId(): Discussion&lt;/div&gt;&lt;div&gt;+&amp;nbsp;setDiscussionId(int)&lt;/div&gt;&lt;div&gt;+ getClassroomId(): Classroom&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;setClassroomId(int)&lt;/div&gt;&lt;div&gt;+ getStartTime(): java.Util.Date&lt;/div&gt;&lt;div&gt;+&amp;nbsp;setStartTime(&lt;span style=&quot;background-color: initial;&quot;&gt;java.Util.Date)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getEndTime(): java.Util.Date&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;setEndTime(&lt;span style=&quot;background-color: initial;&quot;&gt;java.Util.Date)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1630" y="1370" width="265" height="280" as="geometry" />
-        </mxCell>
         <mxCell id="ncv6SjSee8Z9yXH4H8N6-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Dissertation&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1000" y="1600" width="170" height="80" as="geometry" />
         </mxCell>
@@ -223,8 +220,8 @@
         <mxCell id="ncv6SjSee8Z9yXH4H8N6-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;InPerson&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1760" y="1250" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ncv6SjSee8Z9yXH4H8N6-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Application&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- applicationId: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- studentId: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- isOpen: bollean&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- average : Real&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getStudentId(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;setStudentId(int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getApplicationID(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getThemeId():int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;setStudentId(int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isOpen(): boolean&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setOpen(boolean)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getAverage():int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setAverage(int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;getThemes():&amp;nbsp;List&amp;lt;Theme&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;setThemes(List&amp;lt;Theme&amp;gt;)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="570" y="1390" width="270" height="310" as="geometry" />
+        <mxCell id="ncv6SjSee8Z9yXH4H8N6-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Application&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- applicationId: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- isOpen: bollean&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- average : Real&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+Application(Student, boolean, Real,List&amp;lt;Theme&amp;gt;)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getStudent(): Student&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;setStudentId(Student)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getApplicationID(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setApplicationId(int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTheme():Theme&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;setTheme(Theme)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isOpen(): boolean&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setOpen(boolean)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getAverage():int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setAverage(int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;getThemes():&amp;nbsp;List&amp;lt;Theme&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;setThemes(List&amp;lt;Theme&amp;gt;)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="570" y="1390" width="290" height="310" as="geometry" />
         </mxCell>
         <mxCell id="uLBeWboL7h2kMSt1jm66-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ncv6SjSee8Z9yXH4H8N6-12" target="ncv6SjSee8Z9yXH4H8N6-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -237,9 +234,6 @@
             <mxPoint x="1700" y="1270" as="sourcePoint" />
             <mxPoint x="1750" y="1220" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="uLBeWboL7h2kMSt1jm66-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CouncellorsDiscussion&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-councellorDiscId: int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- isInternalCouncellor: boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- councellorId: int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- discussionId: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+set&lt;span style=&quot;background-color: initial;&quot;&gt;CouselorsDiscId(int)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+getCouselorsDiscId():int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+isInternalCounselor():boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+set&lt;span style=&quot;background-color: initial;&quot;&gt;InternalCounselor(boolean)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+getCounselorId():int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+setCounselorId(int)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+getDiscussionId():int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+setDiscussionId(int)&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1620" y="560" width="240" height="230" as="geometry" />
         </mxCell>
         <mxCell id="uLBeWboL7h2kMSt1jm66-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.001;exitY=0.295;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=150;entryPerimeter=0;dashed=1;dashPattern=8 8;" parent="1" source="9Kb7eWinXGNjsF5yYqvm-152" target="9Kb7eWinXGNjsF5yYqvm-211" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -261,16 +255,30 @@
         <mxCell id="uLBeWboL7h2kMSt1jm66-11" value="1..5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="710" y="1230" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7VXLkPv_DBg8IEtzeGzS-8" value="" style="endArrow=block;html=1;rounded=0;exitX=0.459;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.306;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" edge="1" parent="1" source="ncv6SjSee8Z9yXH4H8N6-3" target="9Kb7eWinXGNjsF5yYqvm-227">
+        <mxCell id="7VXLkPv_DBg8IEtzeGzS-8" value="" style="endArrow=block;html=1;rounded=0;exitX=0.459;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.306;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" parent="1" source="ncv6SjSee8Z9yXH4H8N6-3" target="9Kb7eWinXGNjsF5yYqvm-227" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1150" y="1530" as="sourcePoint" />
             <mxPoint x="1200" y="1480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7VXLkPv_DBg8IEtzeGzS-11" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.708;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" edge="1" parent="1" source="ncv6SjSee8Z9yXH4H8N6-4" target="9Kb7eWinXGNjsF5yYqvm-227">
+        <mxCell id="7VXLkPv_DBg8IEtzeGzS-11" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.708;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" parent="1" source="ncv6SjSee8Z9yXH4H8N6-4" target="9Kb7eWinXGNjsF5yYqvm-227" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1500.13" y="1600.08" as="sourcePoint" />
             <mxPoint x="1280" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.422;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9Kb7eWinXGNjsF5yYqvm-218">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="1390" as="sourcePoint" />
+            <mxPoint x="840" y="1340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-3" value="student" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OWafIZ12DqesCI9W8bvT-1">
+          <mxGeometry x="-0.003" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
