@@ -40,14 +40,25 @@ public class Counselor {
      * Sets the ID of the counselor.
      * @param counselorId The ID to set.
      */
+    
     public void setCounselorId(int counselorId) {
         this.counselorid = counselorId;
     }
+    
+    /**
+     * Gets the StudentsCatalog of the counselor.
+     */
+    
     public StudentsCatalog getStudentsCatalog(){
         return this.students;
-
     }
-    public void setStudentsCatalog(StudentsCatalog s){
+
+    /**
+     * Sets the StudentsCatalog of the counselor.
+     * @param studentsCatalog The StudentsCatalog to set.
+     */
+    
+    public void setStudentsCatalog(StudentsCatalog studentsCatalog){
         this.students = s;
     }
 }
