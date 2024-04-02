@@ -7,6 +7,6 @@ package businesslogic;
  * @author Sergio Esteves 58245
  *
  */
-public class inPerson extends Discussion{
+public class InPerson extends Discussion{
 
 }
