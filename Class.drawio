@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T23:26:25.752Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="3l5kb9Iduhfm9cVjiP2H" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T23:37:05.492Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="Qvii1YMAOjzm52pXPPTy" version="24.2.1" type="github">
   <diagram name="Page-1" id="Iy_dI4fpFOT3Uq1jtPuq">
-    <mxGraphModel dx="1354" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1270" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="740" y="100" width="60" height="10" as="geometry" />
         </mxCell>
         <mxCell id="9Kb7eWinXGNjsF5yYqvm-152" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=110;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-500" y="430" width="2471" height="1380" as="geometry" />
+          <mxGeometry x="-491" y="450" width="2471" height="1380" as="geometry" />
         </mxCell>
         <mxCell id="9Kb7eWinXGNjsF5yYqvm-153" value="BusinessLogic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-440" y="430" width="60" height="30" as="geometry" />
@@ -244,7 +244,7 @@
             <mxPoint x="1080" y="1100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Kb7eWinXGNjsF5yYqvm-227" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Thesis&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div&gt;- Document: java.io.File&lt;/div&gt;&lt;div&gt;- thesisId: int&lt;/div&gt;&lt;div&gt;- internalCounsellorId: int&lt;/div&gt;&lt;div&gt;- themeId: int&lt;/div&gt;&lt;div&gt;- studentId: int&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setDocument(java.io.File)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDocument(): java.io.File&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getId():id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getInternalcounselorId(): Counsellor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+setInternalcounselorId(int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getTheme: Theme&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;setThemeId(int)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getStudent(): Student&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;setStudentId(int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="9Kb7eWinXGNjsF5yYqvm-227" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Thesis&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div&gt;- Document: java.io.File&lt;/div&gt;&lt;div&gt;- thesisId: int&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Thesis()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Thesis(java.io.File, Counselor,Theme, Student)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getThesisId(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setThesisId(int)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setDocument(java.io.File)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDocument(): java.io.File&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getinternalCounselor(): Counsellor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setInternalcounselor(&lt;span style=&quot;background-color: initial;&quot;&gt;Counsellor&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getTheme: Theme&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;setThemeId(&lt;/span&gt;Theme&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getStudent(): Student&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;setStudentId(Student)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1157.5" y="1200" width="265" height="280" as="geometry" />
         </mxCell>
         <mxCell id="ncv6SjSee8Z9yXH4H8N6-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Dissertation&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
@@ -447,6 +447,66 @@
         </mxCell>
         <mxCell id="OWafIZ12DqesCI9W8bvT-81" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1390" y="1160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-83" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="9Kb7eWinXGNjsF5yYqvm-218">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1190" y="1200" as="sourcePoint" />
+            <mxPoint x="1240" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-84" value="student" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OWafIZ12DqesCI9W8bvT-83">
+          <mxGeometry x="-0.1555" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-85" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.009;exitY=0.321;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.001;entryY=0.865;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9Kb7eWinXGNjsF5yYqvm-227" target="9Kb7eWinXGNjsF5yYqvm-209">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="1285" as="sourcePoint" />
+            <mxPoint x="1130" y="1235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-86" value="theme" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OWafIZ12DqesCI9W8bvT-85">
+          <mxGeometry x="-0.0796" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-87" value="" style="endArrow=none;html=1;rounded=0;exitX=0.01;exitY=0.652;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.417;entryY=0.587;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" edge="1" parent="1" source="9Kb7eWinXGNjsF5yYqvm-227" target="9Kb7eWinXGNjsF5yYqvm-152">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="1390" as="sourcePoint" />
+            <mxPoint x="1130" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-89" value="internalCounselor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OWafIZ12DqesCI9W8bvT-87">
+          <mxGeometry x="-0.4649" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-88" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;entryX=0.938;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="1260" as="sourcePoint" />
+            <mxPoint x="390" y="1030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="406.74" y="1038.3" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-90" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-91" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="1090" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-92" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="1250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-93" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="1350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-95" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-96" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1030" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
