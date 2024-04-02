@@ -41,6 +41,17 @@ public class Thesis {
 	@JoinColumn(name="STUDENT_ID", nullable = false)
 	private Student student;
 	
+	public Thesis() {
+		
+	}
+	
+	public Thesis(File document, Counselor internalCounselor, Theme theme, Student student) {
+		this.document = document;
+		this.internalCounselor = internalCounselor;
+		this.theme = theme;
+		this.student = student;
+	}
+	
 	/**
 	 * Returns the thesis's id
 	 * @return the id
