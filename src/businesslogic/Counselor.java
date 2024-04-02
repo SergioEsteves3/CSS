@@ -11,7 +11,7 @@ import businesslogic.StudentsCatalog;
 public class Counselor {
     private String name;
     private int counselorid;
-    private StudentsCatalog students;
+    private StudentsCatalog studentsCatalog;
 
     /**
      * Gets the name 
@@ -59,6 +59,6 @@ public class Counselor {
      */
     
     public void setStudentsCatalog(StudentsCatalog studentsCatalog){
-        this.students = studentsCatalog;
+        this.studentsCatalog = studentsCatalog;
     }
 }
