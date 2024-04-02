@@ -28,6 +28,7 @@ public class ThemesCatalog {
 	 * @param description a given description
 	 * @param masters a given list of compatible masters
 	 * @param pay a given pay
+	 * @return the creatd theme's id
 	 */
 	public int addTheme (String title, String description, List<Masters> masters, float pay) {
 		//TO-DO
