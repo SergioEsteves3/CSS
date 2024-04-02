@@ -1,5 +1,5 @@
 package businesslogic;
-import datatypes.Masters;´
+import datatypes.Masters;
 
 /**
  * Class that represents a Student 
