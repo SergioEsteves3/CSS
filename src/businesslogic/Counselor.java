@@ -59,6 +59,6 @@ public class Counselor {
      */
     
     public void setStudentsCatalog(StudentsCatalog studentsCatalog){
-        this.students = s;
+        this.students = studentsCatalog;
     }
 }
