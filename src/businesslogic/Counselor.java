@@ -50,7 +50,7 @@ public class Counselor {
      */
     
     public StudentsCatalog getStudentsCatalog(){
-        return this.students;
+        return this.studentsCatalog;
     }
 
     /**
