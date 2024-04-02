@@ -1,5 +1,6 @@
 package businesslogic;
 
+import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToOne;
@@ -13,6 +14,7 @@ import jakarta.persistence.OneToOne;
  */
 
 @Entity
+@DiscriminatorValue("PROJECT")
 public class Project extends Thesis{
 	@OneToOne
 	@JoinColumn(name = "EXTERNAL_COUSELOR_ID")

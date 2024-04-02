@@ -20,12 +20,28 @@ public class Classroom {
 	private int classroomId;
 	private int roomNumber;
 	
+	public Classroom() {
+		
+	}
+	
+	public Classroom(int roomNumber) {
+		this.roomNumber = roomNumber;
+	}
+	
 	/**
 	 * Returns this classroom's id
 	 * @return the classroom's id
 	 */
 	public int getClassroomId() {
 		return classroomId;
+	}
+	
+	/**
+	 * Sets the classroom id
+	 * @param id the id
+	 */
+	public void setClassroomId(int id) {
+		this.classroomId = id;
 	}
 	
 	/**

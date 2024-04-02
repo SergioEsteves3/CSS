@@ -1,5 +1,6 @@
 package businesslogic;
 
+import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 /**
  * Class that represents an Enterprise 
@@ -9,6 +10,7 @@ import jakarta.persistence.Entity;
  */
 
 @Entity
+@DiscriminatorValue("ENTERPRISE")
 public class Enterprise extends Counselor {
     
 }

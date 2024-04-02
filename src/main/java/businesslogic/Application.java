@@ -26,10 +26,20 @@ public class Application {
 	@JoinColumn(name = "STUDENT_ID")
 	private Student student;
 	private boolean isOpen;
-	private float average;
+	private double average;
 	@OneToMany
 	@JoinColumn(name = "THEME_ID")
 	private List<Theme> themes;
+	
+	public Application() {
+	}
+	
+	public Application(Student student, boolean isOpen, double average, List<Theme> themes) {
+		this.student = student;
+		this.isOpen = isOpen;
+		this.average = average;
+		this.themes = themes;
+	}
 	
 	/**
 	 * Returns the application's id
@@ -37,6 +47,14 @@ public class Application {
 	 */
 	public int getApplicationId() {
 		return applicationId;
+	}
+	
+	/**
+	 * Sets the applucation's id
+	 * @param applicationId the id
+	 */
+	public void setApplicationId(int applicationId) {
+		this.applicationId = applicationId;
 	}
 
 	/**
@@ -75,7 +93,7 @@ public class Application {
 	 * Returns the average grade registered in the application
 	 * @return the average grade
 	 */
-	public float getAverage() {
+	public double getAverage() {
 		return average;
 	}
 	
@@ -83,7 +101,7 @@ public class Application {
 	 * Sets the average grade in the application
 	 * @param average a give average
 	 */
-	public void setAverage(float average) {
+	public void setAverage(double average) {
 		this.average = average;
 	}
 	

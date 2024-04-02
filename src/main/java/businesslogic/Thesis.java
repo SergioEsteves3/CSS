@@ -3,11 +3,15 @@ package businesslogic;
 import java.io.File;
 
 import jakarta.persistence.Basic;
+import jakarta.persistence.DiscriminatorColumn;
+import jakarta.persistence.DiscriminatorType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Inheritance;
+import jakarta.persistence.InheritanceType;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.Lob;
 import jakarta.persistence.OneToOne;
@@ -20,6 +24,8 @@ import jakarta.persistence.OneToOne;
  */
 
 @Entity
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(discriminatorType = DiscriminatorType.STRING,name = "TYPE")
 public class Thesis {
 	@Id @GeneratedValue(strategy = GenerationType.TABLE)
 	private int thesisId;
@@ -41,6 +47,10 @@ public class Thesis {
 	 */
 	public int getThesisId() {
 		return thesisId;
+	}
+	
+	public void setThesisId(int thesisId) {
+		this.thesisId = thesisId;
 	}
 	
 	/**

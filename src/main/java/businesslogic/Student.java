@@ -23,6 +23,16 @@ import jakarta.persistence.Id;
     @Enumerated(EnumType.STRING)
     private Masters masters;
 
+    public Student() {
+    	
+    }
+    
+    public Student(String name, double average, Masters masters) {
+    	this.name = name;
+    	this.average = average;
+    	this.masters = masters;
+    }
+    
     /**
      * Gets the ID of the student.
      * @return The ID of the student.
@@ -30,7 +40,15 @@ import jakarta.persistence.Id;
     public int getStudentId() {
         return studentId;
     }
-
+    
+    /**
+     * Sets the student's id
+     * @param studentId an id
+     */
+    public void setStudentId(int studentId) {
+    	this.studentId = studentId;
+    }
+    
     /**
      * Gets the name of the student.
      * @return The name of the student.

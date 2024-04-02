@@ -29,10 +29,22 @@ public class Theme {
 	private String description;
 	@ElementCollection
 	private Set<Masters> compatibleMasters;
-	private float pay;
+	private double pay;
 	@OneToOne
 	@JoinColumn(name = "COUNSELOR_ID", nullable = false)
 	private Counselor counselor;
+	
+	public Theme() {
+		
+	}
+	
+	public Theme(String title, String description, Set<Masters> compatibleMasters, double pay, Counselor counselor) {
+		this.title = title;
+		this.description = description;
+		this.compatibleMasters = this.compatibleMasters;
+		this.pay = pay;
+		this.counselor = counselor;
+	}
 	
 	/**
 	 * Returns the theme's id
@@ -40,6 +52,14 @@ public class Theme {
 	 */
 	public int getThemeId() {
 		return themeId;
+	}
+	
+	/**
+	 * Sets the theme's id
+	 * @param themeId an id
+	 */
+	public void setThemeId(int themeId) {
+		this.themeId = themeId;
 	}
 
 	/**
@@ -94,7 +114,7 @@ public class Theme {
 	 * Returns the pay for the theme
 	 * @return the pay for the theme
 	 */
-	public float getPay() {
+	public double getPay() {
 		return pay;
 	}
 
@@ -102,7 +122,7 @@ public class Theme {
 	 * Sets the pay for the theme to a given amount
 	 * @param pay a given amount
 	 */
-	public void setPay(float pay) {
+	public void setPay(double pay) {
 		this.pay = pay;
 	}
 

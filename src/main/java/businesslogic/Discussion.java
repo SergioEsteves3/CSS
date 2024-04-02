@@ -3,10 +3,14 @@ package businesslogic;
 import java.util.Date;
 import java.util.Set;
 
+import jakarta.persistence.DiscriminatorColumn;
+import jakarta.persistence.DiscriminatorType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Inheritance;
+import jakarta.persistence.InheritanceType;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
@@ -22,6 +26,8 @@ import jakarta.persistence.TemporalType;
  */
 
 @Entity
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(discriminatorType = DiscriminatorType.STRING,name = "TYPE")
 public class Discussion {
 	@Id @GeneratedValue(strategy = GenerationType.TABLE)
 	private int discussionId;
@@ -47,6 +53,19 @@ public class Discussion {
 	@JoinColumn(name = "COUNSELOR_ID")
 	private Set<Counselor> counselors;
 	
+	public Discussion() {
+		
+	}
+	
+	public Discussion(boolean isFinal, float grade, Thesis thesis, Date startDate, Date endDate, Set<Counselor> counselors) {
+		this.isFinal = isFinal;
+		this.grade = grade;
+		this.thesis = thesis;
+		this.startDate = startDate;
+		this.endDate = endDate;
+		this.counselors = counselors;
+	}
+	
 	/**
 	 * Returns the discussion's id
 	 * @return the discussion id
@@ -55,6 +74,14 @@ public class Discussion {
 		return discussionId;
 	}
 
+	/**
+	 * Sets the discussion's id
+	 * @param discussionId the id
+	 */
+	public void setDiscussionId(int discussionId) {
+		this.discussionId = discussionId;
+	}
+	
 	/**
 	 * Returns whether this is the final discussion for the thesis or not
 	 * @return true if it is the final discussion and false otherwise
