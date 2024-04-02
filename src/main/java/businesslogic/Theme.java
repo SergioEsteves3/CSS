@@ -41,7 +41,7 @@ public class Theme {
 	public Theme(String title, String description, Set<Masters> compatibleMasters, double pay, Counselor counselor) {
 		this.title = title;
 		this.description = description;
-		this.compatibleMasters = this.compatibleMasters;
+		this.compatibleMasters = compatibleMasters;
 		this.pay = pay;
 		this.counselor = counselor;
 	}
