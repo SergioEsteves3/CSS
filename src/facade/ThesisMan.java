@@ -1,7 +1,7 @@
 package facade;
 
 import businesslogic.ClassroomCatalog;
-import businesslogic.CounsellorsCatalog;
+import businesslogic.CounselorsCatalog;
 import businesslogic.StudentsCatalog;
 import businesslogic.ThemesCatalog;
 
@@ -13,14 +13,15 @@ import businesslogic.ThemesCatalog;
  *
  */
 public class ThesisMan {
+
 	private float sucessRate;
-	private CounsellorsCatalog couselorsCatalog;
+	private CounselorsCatalog couselorsCatalog;
 	private ClassroomCatalog classroomCatalog;
 	private StudentsCatalog studentsCatalog;
 	private ThemesCatalog themesCatalog;
 	
 	public ThesisMan() {
-		this.couselorsCatalog = new CounsellorsCatalog();
+		this.couselorsCatalog = new CounselorsCatalog();
 		this.classroomCatalog = new ClassroomCatalog();
 		this.studentsCatalog = new StudentsCatalog();
 		this.themesCatalog = new ThemesCatalog();
@@ -33,6 +34,41 @@ public class ThesisMan {
 	public float getSucessRate() {
 		return sucessRate;
 	}
+	
+	/**
+	 * Returns the Counselors' Catalog
+	 * @return the couselorsCatalog
+	 */
+	public CounselorsCatalog getCouselorsCatalog() {
+		return couselorsCatalog;
+	}
+
+	/**
+	 * Returns the Classrooms' Catalog
+	 * @return the classroomCatalog
+	 */
+	public ClassroomCatalog getClassroomCatalog() {
+		return classroomCatalog;
+	}
+
+
+	/**
+	 * Returns the Students' Catalog
+	 * @return the studentsCatalog
+	 */
+	public StudentsCatalog getStudentsCatalog() {
+		return studentsCatalog;
+	}
+
+
+	/**
+	 * Returns the Themes' Catalog
+	 * @return the themesCatalog
+	 */
+	public ThemesCatalog getThemesCatalog() {
+		return themesCatalog;
+	}
+
 
 
 }

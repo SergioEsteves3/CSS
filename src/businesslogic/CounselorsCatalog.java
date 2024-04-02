@@ -7,14 +7,14 @@ package businesslogic;
  * @author Sergio Esteves 58245
  */
 
-public class CounsellorsCatalog {
+public class CounselorsCatalog {
      /**
      * Returns a counsellor with i id
      * @param i counselor id
      * @return counsellor with i id
      */
 
-     public Counsellor getCounsellor(int i){
+     public Counselor getCounsellor(int i){
         return null;
     }
 

@@ -8,7 +8,7 @@ import businesslogic.StudentsCatalog;
  * @author Leonardo Monteiro 58250
  * @author Sergio Esteves 58245
  */
-public class Counsellor {
+public class Counselor {
     private String name;
     private int counselorid;
     private StudentsCatalog students;

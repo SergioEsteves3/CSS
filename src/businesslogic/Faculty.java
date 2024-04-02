@@ -1,5 +1,5 @@
 package businesslogic;
-import businesslogic.Counsellor;
+import businesslogic.Counselor;
 
 /**
  * Class that represents a Faculty
@@ -7,6 +7,6 @@ import businesslogic.Counsellor;
  * @author Leonardo Monteiro 58250
  * @author Sergio Esteves 58245
  */
-public class Faculty extends Counsellor {
+public class Faculty extends Counselor {
     
 }
