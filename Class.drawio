@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T23:15:22.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="JixZubJBdMg7zWDg_5eW" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T23:21:28.402Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="YUrPB-vXpX454DgYawqb" version="24.2.1" type="github">
   <diagram name="Page-1" id="Iy_dI4fpFOT3Uq1jtPuq">
     <mxGraphModel dx="2110" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="740" y="100" width="60" height="10" as="geometry" />
         </mxCell>
         <mxCell id="9Kb7eWinXGNjsF5yYqvm-152" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=110;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-470" y="430" width="2471" height="1380" as="geometry" />
+          <mxGeometry x="-480" y="430" width="2471" height="1380" as="geometry" />
         </mxCell>
         <mxCell id="9Kb7eWinXGNjsF5yYqvm-153" value="BusinessLogic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-340" y="430" width="60" height="30" as="geometry" />
+          <mxGeometry x="-440" y="430" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Kb7eWinXGNjsF5yYqvm-156" value="ThesisMan" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="140" width="240" height="190" as="geometry" />
@@ -200,7 +200,7 @@
             <mxPoint x="670" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Kb7eWinXGNjsF5yYqvm-209" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Theme&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- themeId: int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- title: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- description:String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- compatibleMasters: List&amp;lt;Masters&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- pay : Real&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- councellorId: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getThemeId()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getTitle(): String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setTitle(String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDescription(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setDescription(String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCompatibleMasters(): List&amp;lt;Masters&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setCompatibleMasters(List&amp;lt;Masters&amp;gt;)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPay(): Real&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setPay(Real)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCounsellor(): Counsellor&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setcounselorId(int)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="9Kb7eWinXGNjsF5yYqvm-209" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Theme&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- themeId: int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- title: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- description:String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- compatibleMasters: List&amp;lt;Masters&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- pay : Real&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getThemeId()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getTitle(): String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setTitle(String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDescription(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setDescription(String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCompatibleMasters(): List&amp;lt;Masters&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setCompatibleMasters(List&amp;lt;Masters&amp;gt;)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPay(): Real&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setPay(Real)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCounsellor(): Counsellor&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setcounselorId(int)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="590" y="910" width="240" height="310" as="geometry" />
         </mxCell>
         <mxCell id="9Kb7eWinXGNjsF5yYqvm-210" value="" style="group;" parent="1" vertex="1" connectable="0">
@@ -221,7 +221,7 @@
             <mxPoint x="760" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Kb7eWinXGNjsF5yYqvm-218" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Student&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div&gt;- studentId: int&lt;br&gt;&lt;/div&gt;&lt;div&gt;- name: String&lt;/div&gt;&lt;div&gt;- average: Real&lt;/div&gt;&lt;div&gt;- masters: Masters&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getName():String&lt;/div&gt;&lt;div&gt;+ setName(String)&lt;/div&gt;&lt;div&gt;+ getAverage(): Real&lt;/div&gt;&lt;div&gt;+ setAverage(Real)&lt;/div&gt;&lt;div&gt;+ getStudentId(): int&lt;/div&gt;&lt;div&gt;+ getMasters(): Masters&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setMasters(Masters)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="9Kb7eWinXGNjsF5yYqvm-218" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Student&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div&gt;- studentId: int&lt;br&gt;&lt;/div&gt;&lt;div&gt;- name: String&lt;/div&gt;&lt;div&gt;- average: Real&lt;/div&gt;&lt;div&gt;- masters: Masters&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div&gt;+ Student()&lt;/div&gt;&lt;div&gt;+ Student(String, Real , Masters )&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getName():String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ setName(String)&lt;/div&gt;&lt;div&gt;+ getAverage(): Real&lt;/div&gt;&lt;div&gt;+ setAverage(Real)&lt;/div&gt;&lt;div&gt;+ getStudentId(): int&lt;/div&gt;&lt;div&gt;+ setStudentId(int)&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getMasters(): Masters&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setMasters(Masters)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="890" y="910" width="240" height="250" as="geometry" />
         </mxCell>
         <mxCell id="9Kb7eWinXGNjsF5yYqvm-223" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.733;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="9Kb7eWinXGNjsF5yYqvm-218" target="9Kb7eWinXGNjsF5yYqvm-178" edge="1">
@@ -412,6 +412,35 @@
           <mxGeometry x="0.2243" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-65" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.996;entryY=0.847;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.002;exitY=0.275;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9Kb7eWinXGNjsF5yYqvm-209" target="9Kb7eWinXGNjsF5yYqvm-196">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="1060" as="sourcePoint" />
+            <mxPoint x="500" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-66" value="counselor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OWafIZ12DqesCI9W8bvT-65">
+          <mxGeometry x="-0.0526" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-67" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="970" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-68" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="970" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-69" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-72" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-75" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWafIZ12DqesCI9W8bvT-76" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="950" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
