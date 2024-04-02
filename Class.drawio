@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T14:32:16.920Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="D1BUVhjsmzMsKnOAuoCm" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T14:32:24.855Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="0P_lfvyBfUqtHH8KnfBb" version="24.2.1" type="github">
   <diagram name="Page-1" id="Iy_dI4fpFOT3Uq1jtPuq">
     <mxGraphModel dx="2837" dy="1287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="9Kb7eWinXGNjsF5yYqvm-153" value="BusinessLogic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-60" y="470" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9Kb7eWinXGNjsF5yYqvm-156" value="ThesisMan" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="9Kb7eWinXGNjsF5yYqvm-156" value="ThesisMan" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="140" width="240" height="190" as="geometry" />
         </mxCell>
         <mxCell id="9Kb7eWinXGNjsF5yYqvm-157" value="- successRate: Real" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="9Kb7eWinXGNjsF5yYqvm-156" vertex="1">
@@ -179,7 +179,7 @@
             <mxPoint x="760" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Kb7eWinXGNjsF5yYqvm-218" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Student&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div&gt;- studentId: int&lt;br&gt;&lt;/div&gt;&lt;div&gt;- name: String&lt;/div&gt;&lt;div&gt;- average: Real&lt;/div&gt;&lt;div&gt;- masters: Masters&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getName():String&lt;/div&gt;&lt;div&gt;+ setName(String)&lt;/div&gt;&lt;div&gt;+ getAverage(): Real&lt;/div&gt;&lt;div&gt;+ setAverage(Real)&lt;/div&gt;&lt;div&gt;+ getStudentId(): int&lt;/div&gt;&lt;div&gt;+ getMasters(): Masters&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setMasters(Masters)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="9Kb7eWinXGNjsF5yYqvm-218" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Student&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div&gt;- studentId: int&lt;br&gt;&lt;/div&gt;&lt;div&gt;- name: String&lt;/div&gt;&lt;div&gt;- average: Real&lt;/div&gt;&lt;div&gt;- masters: Masters&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getName():String&lt;/div&gt;&lt;div&gt;+ setName(String)&lt;/div&gt;&lt;div&gt;+ getAverage(): Real&lt;/div&gt;&lt;div&gt;+ setAverage(Real)&lt;/div&gt;&lt;div&gt;+ getStudentId(): int&lt;/div&gt;&lt;div&gt;+ getMasters(): Masters&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setMasters(Masters)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="890" y="910" width="240" height="250" as="geometry" />
         </mxCell>
         <mxCell id="9Kb7eWinXGNjsF5yYqvm-223" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.733;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="9Kb7eWinXGNjsF5yYqvm-218" target="9Kb7eWinXGNjsF5yYqvm-178" edge="1">
