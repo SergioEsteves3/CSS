@@ -7,6 +7,14 @@ import businesslogic.DiscussionCatalog;
 import businesslogic.StudentsCatalog;
 import businesslogic.ThemesCatalog;
 import businesslogic.ThesisCatalog;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.lang.NonNull;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
+
 
 /**
  * Main class for the ThesisMan application
@@ -15,9 +23,13 @@ import businesslogic.ThesisCatalog;
  * @author Sergio Esteves 58245
  *
  */
+
+
 public class ThesisMan {
 
+
 	private float sucessRate;
+
 	private final CounselorsCatalog couselorsCatalog;
 	private final ClassroomCatalog classroomCatalog;
 	private final StudentsCatalog studentsCatalog;
@@ -25,7 +37,8 @@ public class ThesisMan {
 	private final ApplicationCatalog applicationCatalog;
 	private final DiscussionCatalog discussionCatalog;
 	private final ThesisCatalog thesisCatalog;
-	
+
+
 	public ThesisMan(CounselorsCatalog counselorsCatalog, ClassroomCatalog classroomCatalog, StudentsCatalog studentsCatalog, ThemesCatalog themesCatalog, ThesisCatalog thesisCatalog, ApplicationCatalog applicationCatalog, DiscussionCatalog discussionCatalog) {
 		this.couselorsCatalog = counselorsCatalog;
 		this.classroomCatalog = classroomCatalog;

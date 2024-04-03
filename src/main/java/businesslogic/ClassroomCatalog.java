@@ -1,6 +1,7 @@
 package businesslogic;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Component;
 
 /**
  * A catalog for discussion classrooms
@@ -9,6 +10,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @author Sergio Esteves 58245
  *
  */
+
+@Component
 public interface ClassroomCatalog extends JpaRepository<Classroom, Integer>{
 
 }

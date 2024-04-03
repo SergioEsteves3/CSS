@@ -26,7 +26,7 @@ import jakarta.persistence.OneToOne;
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(discriminatorType = DiscriminatorType.STRING,name = "TYPE")
-public class Thesis {
+public abstract class Thesis {
 	@Id @GeneratedValue(strategy = GenerationType.TABLE)
 	private int thesisId;
 	@Lob @Basic(fetch = FetchType.LAZY)

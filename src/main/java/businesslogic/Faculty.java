@@ -12,5 +12,11 @@ import jakarta.persistence.Entity;
 @Entity
 @DiscriminatorValue("FACULTY")
 public class Faculty extends Counselor {
-    
+    public Faculty() {
+        super();
+    }
+
+    public Faculty(String name) {
+        super(name);
+    }
 }

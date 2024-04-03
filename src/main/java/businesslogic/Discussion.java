@@ -28,7 +28,7 @@ import jakarta.persistence.TemporalType;
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(discriminatorType = DiscriminatorType.STRING,name = "TYPE")
-public class Discussion {
+public abstract class Discussion {
 	@Id @GeneratedValue(strategy = GenerationType.TABLE)
 	private int discussionId;
 	
@@ -39,9 +39,7 @@ public class Discussion {
 	@JoinColumn(name = "THESIS_ID", nullable = false)
 	private Thesis thesis;
 	
-	@OneToOne
-	@JoinColumn(name = "CLASSROOM_ID")
-	private Classroom discussionRoom;
+
 	
 	@Temporal(TemporalType.DATE)
 	private Date startDate;
@@ -50,9 +48,11 @@ public class Discussion {
 	private Date endDate;
 	
 	@OneToMany
-	@JoinColumn(name = "COUNSELOR_ID")
+	//@JoinColumn(name = "COUNSELOR_ID")
 	private Set<Counselor> counselors;
-	
+
+
+
 	public Discussion() {
 		
 	}
@@ -132,21 +132,6 @@ public class Discussion {
 		this.thesis = thesis;
 	}
 
-	/**
-	 * Rturns the room where the discussion will happen
-	 * @return the discussionRoom the room
-	 */
-	public Classroom getDiscussionRoom() {
-		return discussionRoom;
-	}
-
-	/**
-	 * Sets the room where the discussion will happen
-	 * @param discussionRoom the room
-	 */
-	public void setDiscussionRoom(Classroom discussionRoom) {
-		this.discussionRoom = discussionRoom;
-	}
 
 	/**
 	 * Returns the date when the discussion is scheduled to start

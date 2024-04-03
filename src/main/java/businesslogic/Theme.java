@@ -3,13 +3,7 @@ package businesslogic;
 import java.util.Set;
 
 import datatypes.Masters;
-import jakarta.persistence.ElementCollection;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.OneToOne;
+import jakarta.persistence.*;
 
 /**
  * Class that represents themes for a thesis
@@ -23,7 +17,8 @@ import jakarta.persistence.OneToOne;
 @Entity
 public class Theme {
 	@Id
-	@GeneratedValue(strategy = GenerationType.TABLE)
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name = "THEME_ID")
 	private int themeId;
 	private String title;
 	private String description;

@@ -12,5 +12,13 @@ import jakarta.persistence.Entity;
 @Entity
 @DiscriminatorValue("ENTERPRISE")
 public class Enterprise extends Counselor {
+
+    public Enterprise() {
+        super();
+    }
+
+    public Enterprise(String name) {
+        super(name);
+    }
     
 }

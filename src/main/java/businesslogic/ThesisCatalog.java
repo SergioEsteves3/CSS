@@ -9,6 +9,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @author Sergio Esteves 58245
  *
  */
+
+
 public interface ThesisCatalog extends JpaRepository<Thesis, Integer>{
 
 }

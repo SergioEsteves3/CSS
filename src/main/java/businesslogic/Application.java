@@ -28,7 +28,6 @@ public class Application {
 	private boolean isOpen;
 	private double average;
 	@OneToMany
-	@JoinColumn(name = "THEME_ID")
 	private List<Theme> themes;
 	
 	public Application() {

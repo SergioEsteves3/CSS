@@ -1,13 +1,6 @@
 package businesslogic;
 
-import jakarta.persistence.DiscriminatorColumn;
-import jakarta.persistence.DiscriminatorType;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Inheritance;
-import jakarta.persistence.InheritanceType;
+import jakarta.persistence.*;
 
 /**
  * Class that represents a Counselor 
@@ -19,11 +12,12 @@ import jakarta.persistence.InheritanceType;
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(discriminatorType = DiscriminatorType.STRING,name = "TYPE")
-public class Counselor {
+public abstract class Counselor {
     private String name;
     @Id
-    @GeneratedValue(strategy = GenerationType.TABLE)
-    private int counselorid;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name="COUNSELOR_ID")
+    private int counselorId;
 
     public Counselor() {
     	
@@ -45,7 +39,7 @@ public class Counselor {
      * @return counselor id
      */
     public int getCounselorId(){
-        return this.counselorid;
+        return this.counselorId;
     }
     
 
@@ -61,8 +55,8 @@ public class Counselor {
      * Sets the ID of the counselor.
      * @param counselorId The ID to set.
      */
-	public void setCounselorid(int counselorid) {
-		this.counselorid = counselorid;
+	public void setCounselorId(int counselorId) {
+		this.counselorId = counselorId;
 	}
     
 }
